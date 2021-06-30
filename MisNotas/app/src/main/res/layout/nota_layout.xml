@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Titulo"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:id="@+id/titulo_nota"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/contenido_nota"
+        android:text="Contenido nota"
+        android:textColor="@color/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp">
+        
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        
+        <ImageView
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:layout_marginRight="10pt"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:id="@+id/btn_borrar"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
