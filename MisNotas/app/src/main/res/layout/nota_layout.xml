@@ -11,7 +11,8 @@
         android:text="Titulo"
         android:textColor="@color/black"
         android:textSize="24dp"
-        android:id="@+id/titulo_nota"/>
+        android:id="@+id/titulo_nota"
+        android:layout_marginLeft="5dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -19,7 +20,8 @@
         android:textSize="20dp"
         android:id="@+id/contenido_nota"
         android:text="Contenido nota"
-        android:textColor="@color/gray"/>
+        android:textColor="@color/gray"
+        android:layout_marginLeft="5dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
